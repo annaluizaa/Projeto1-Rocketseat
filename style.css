@@ -1,0 +1,47 @@
+Body { text-align: center;
+       font-family: 'Open Sans', sans-serif;}
+
+#hero { width: 592px;
+        margin: auto;} /* margens de elementos, de coisas que estao na tela*/
+   
+#hero img {
+    margin-bottom: 72px;} /* espaço de cima/baixo entre a foto e o titulo, etc*/
+
+
+
+
+h1{ font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;                  /* tudo que é relacionado ao titulo do texto*/
+    font-weight: normal;
+    margin-bottom: 32px;}
+
+h1 span { font-weight: bold;}    
+
+p, footer { font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    font-size: 14px;  /* paragrafos, tamanho da fonte, tamanho do espaço entre um texto e outro etc*/
+    line-height: 28px;}
+
+
+
+
+a { font-family: 'Open Sans', sans-serif;}  /* Tudo que é relacionado a parte dos links*/
+
+#footer a + a { margin-right: 28px;}
+
+.line {
+    width: 568px;
+    height: 0;
+    border: 1px #eceff2 solid;
+    margin: 0 /* 0 EM CIMA*/ 
+    auto /* AUTO LATERAIS*/ 
+    8px /* 8PX PARA BAIXO = ESPAÇO ENTRE A LINHA E O TEXTO!*/;}
+
+span, a {color:#FF9900;}
+strong { color:#7D7987;}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;}
